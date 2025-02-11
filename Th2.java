@@ -1,8 +1,3 @@
-/*
-Thread Class Vs Runnable Interface - we can extend the Demo2 class to another class 
-but Demo class can't due to Multiple Inheritance.
-*/
-
 class Demo2 implements Runnable {
 	public void run() {
 		System.out.println("Thread "+Thread.currentThread().getId()+" is running");
